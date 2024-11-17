@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    background-color: #ff6600;
+    padding: 10px;
+    color: white;
+}
+
+.logo {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.header-icons {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.header-icons input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.header-icons button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+/*Todo lo que sea de la navegación*/
+nav {
+    background-color: black;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.menu li {
+    list-style: none;
+    position: relative;
+    margin: 0 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    min-width: 160px;
+    z-index: 1;
+}
+
+.menu li:hover .dropdown {
+    display: block;
+}
+
+.dropdown a {
+    color: black;
+    padding: 8px 12px;
+    display: block;
+}
+
+/*Los Productos*/
+.novedades {
+    text-align: center;
+    padding: 20px;
+}
+
+.novedades h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.productos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.producto {
+    text-align: center;
+    padding: 10px;
+}

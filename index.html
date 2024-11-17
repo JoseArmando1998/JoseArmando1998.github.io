@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeviceHub - Tienda en Línea</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagen/computadora-portatil.ico">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <img src="imagen/Logo.png" alt="DeviceHub Logo" class="logo">
+            <h1>DeviceHub</h1>
+            <div class="header-icons">
+                <input type="text" placeholder="Buscar..." id="search-bar">
+                <button id="cart-icon" onclick="window.location.href='carrito.html'">🛒</button>
+                <button id="user-icon">👤</button>
+                <div id="user-dropdown" class="dropdown-content">
+                    <a href="#">Perfil</a>
+                    <a href="#">Configuración</a>
+                    <a href="login.html">Cerrar sesión</a>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Productos ▼</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Celulares</a></li>
+                        <li><a href="#">Computadoras</a></li>
+                        <li><a href="#">Tablets</a></li>
+                        <li><a href="#">Laptops</a></li>
+                        <li><a href="#">Otros</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Novedades ▼</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Lo más vendido</a></li>
+                        <li><a href="#">Ofertas</a></li>
+                        <li><a href="#">Para ti</a></li>
+                        <li><a href="#">Lo más reciente</a></li>
+                        <li><a href="#">De temporada</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Preventas ▼</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Windows</a></li>
+                        <li><a href="#">macOS</a></li>
+                        <li><a href="#">Linux</a></li>
+                        <li><a href="#">Android</a></li>
+                        <li><a href="#">Otros</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Información ▼</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Acerca de...</a></li>
+                        <li><a href="#">Sugerencias</a></li>
+                        <li><a href="#">Redes Sociales</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="promocion">
+            <img src="imagen/Promocion.png" alt="Promoción Cyber Monday" style="display: block; margin: 0 auto;">
+        </section>
+        <section class="novedades">
+            <h2>Novedades</h2>
+            <div class="productos">
+                <div class="producto"><img src="imagen/Mac.png" alt="Mac"><p>Mac</p></div>
+                <div class="producto"><img src="imagen/Ipad.png" alt="iPad"><p>iPad</p></div>
+                <div class="producto"><img src="imagen/Airpods.png" alt="AirPods"><p>AirPods</p></div>
+                <div class="producto"><img src="imagen/Iphone.png" alt="iPhone"><p>iPhone</p></div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
